@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // store display element once
 const display = document.getElementById("display");
 
@@ -290,6 +289,4 @@ window.onload = function () {
     if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark-mode");
     }
-
->>>>>>> 337fd13af4a68655c3f9c76372829bb2aec30485
 };
